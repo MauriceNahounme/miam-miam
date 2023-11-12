@@ -21,6 +21,7 @@ import { TopBarComponent } from './common/top-bar/top-bar.component';
 import { SpinnerComponent } from './common/spinner/spinner.component';
 import { LoginFormComponent } from './auth/login-form/login-form.component';
 import { UserViewComponent } from './user/user-view/user-view.component';
+import { MealViewComponent } from './meal/meal-view/meal-view.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { UserViewComponent } from './user/user-view/user-view.component';
     TopBarComponent,
     SpinnerComponent,
     LoginFormComponent,
-    UserViewComponent
+    UserViewComponent,
+    MealViewComponent
   ],
   imports: [
     BrowserModule,

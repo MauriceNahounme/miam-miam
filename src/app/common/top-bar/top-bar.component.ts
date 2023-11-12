@@ -24,11 +24,11 @@ export class TopBarComponent implements OnInit {
         this.router.navigate(['/']);
     }
 
-    // navigateToUsers() {
-    //     this.router.navigate(['/users']);
-    // }
+    navigateToUsers() {
+        this.router.navigate(['/users']);
+    }
 
-    navigateToPosts() {
+    navigateToMeals() {
         this.router.navigate(['/meals']);
     }
 
